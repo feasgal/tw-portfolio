@@ -25,7 +25,7 @@ nav: # this section configures the nav sidebar
     
     - Docs-As-Code Implementation: case-study/study.md
 
-    - Sample:
+    - Acme Licensing:
         - Start here: sample/getting-started.md
         - Tutorials:
             - Install Acme License Engine and Hub: sample/tutorials/install-hub.md
@@ -58,8 +58,8 @@ nav: # this section configures the nav sidebar
             - System requirements: sample/reference/system-requirements.md
             - Glossary: sample/reference/glossary.md
         - Explanation:
-            - Architecture: sample/explanation/architecture.md
-            - How sharable licenses work: sample/explanation/sharable-licenses.md
+            - Individual use: sample/explanation/architecture.md
+            - License server: sample/explanation/sharable-licenses.md
         - Troubleshooting:
             - Server not discovered: sample/troubleshooting/discovery.md
             - No seats available: sample/troubleshooting/no-seats.md
