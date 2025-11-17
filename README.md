@@ -1,0 +1,1 @@
+This repository contains my technical writing portfolio site, built with MkDocs and the Material theme. It showcases a concise case study and a small example documentation set for a fictional license management product, along with the docs-as-code plumbing behind them.
