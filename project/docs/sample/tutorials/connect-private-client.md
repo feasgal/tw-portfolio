@@ -8,34 +8,34 @@
 
 !!! checklist "You need"
     - Acme License Hub installed on the client
-    - A client configuration file from your admin
+    - A client configuration file from your administrator
     - The server’s access password (if required)
     - Network reachability to the server (same LAN or routed/VPN)
 
 ## Step 1: Get server details
 
-1. Obtain the **client configuration file** from your admin.  
-2. Ensure the server is **Online** (ask your admin if unsure).
+1. Obtain the **client configuration file** from your administrator.  
+1. Ensure the server is **Online** (ask your administrator if unsure).
 
 ## Step 2: Import the configuration (recommended)
 
 1. Open **Acme License Hub** on the client.
-2. Go to **Servers** → **Add** → **Import configuration**.
-3. Select the file from your admin.
+1. Go to **Servers** → **Add** → **Import configuration**.
+1. Select the file from your administrator.
 
 **The server entry now appears under Private.**
 
 ## Step 3: Connect
 
 1. Select the server under **Private** and click **Connect**.
-2. Enter the access password if prompted.
+1. Enter the access password if prompted.
 
 **The server entry now shows Connected.**
 
 ## Step 4: Prove access
 
 1. Launch a protected app on the client.
-2. Confirm the app starts without a license error.
+1. Confirm the app starts without a license error.
 
 !!! success
 
@@ -43,9 +43,9 @@
 
 ## Troubleshooting
 
-- Cannot connect or times out → check routes/VPN and open paths. See **[VPN and subnets](/sample/troubleshooting/vpn.md)** and **[Firewalls](/sample/troubleshooting/firewalls.md)**.
-- Server entry missing after import → the file is invalid or stale. Ask your admin for a fresh configuration.
-- Password prompt fails → confirm the current access password with your admin.
+- Can't connect or times out → check routes/VPN and open paths. See **[VPN and subnets](/sample/troubleshooting/vpn.md)** and **[Firewalls](/sample/troubleshooting/firewalls.md)**.
+- Server entry missing after import → the file is invalid or stale. Ask your administrator for a fresh configuration.
+- Password prompt fails → confirm the current access password with your administrator.
 
 ## Next steps
 

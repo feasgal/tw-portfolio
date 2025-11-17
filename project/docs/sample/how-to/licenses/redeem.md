@@ -13,8 +13,8 @@ Sign in to **Acme License Hub** and have the activation code ready.
 ## Steps
 
 1. In the Hub, choose **Redeem**.
-2. Enter the activation code exactly as provided.
-3. Submit and confirm the license appears under **Available**.
+1. Enter the activation code exactly as provided.
+1. Submit and confirm the license appears under **Available**.
 
 !!! outcome
 

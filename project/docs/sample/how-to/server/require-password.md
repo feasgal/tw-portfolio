@@ -8,15 +8,15 @@ Protect your license server by requiring a password for every client connection.
 
 ## Before you start
 
-Sign in to **Server Admin** with admin rights.
+Sign in to **Server Admin** with administrator rights.
 
 ## Steps
 
 1. Open **Server Admin**.
-2. Go to **Access control**.
-3. Enable **Require password**.
-4. Set and confirm a strong password.
-5. Apply changes.
+1. Go to **Access control**.
+1. Enable **Require password**.
+1. Set and confirm a strong password.
+1. Apply changes.
 
 !!! outcome
 

@@ -40,7 +40,7 @@ nav: # this section configures the nav sidebar
                 - Redeem an activation code: sample/how-to/licenses/redeem.md
                 - Repair an Acme dongle: sample/how-to/licenses/repair.md
                 - Start or end a Cloud session: sample/how-to/licenses/session.md
-                - File an RMA: sample/how-to/licenses/return.md
+                - File a return authorization: sample/how-to/licenses/return.md
             - Server admin:
                 - Export a client config file: sample/how-to/server/export-config.md
                 - Require a server password: sample/how-to/server/require-password.md

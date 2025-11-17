@@ -1,6 +1,6 @@
 # App version unsupported
 
-A protected app cannot use sharable licenses due to version limits.
+A protected app can't use sharable licenses due to version limits.
 
 ## Confirm
 

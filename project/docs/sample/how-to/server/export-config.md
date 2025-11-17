@@ -15,9 +15,9 @@ Confirm the server shows **Online** in Server Admin and you have the current **a
 ## Steps
 
 1. Open **Server Admin** on the server host.
-2. Go to **Client access** or **Connections**.
-3. Select **Export client configuration**.
-4. Save the file and share it securely with users.
+1. Go to **Client access** or **Connections**.
+1. Select **Export client configuration**.
+1. Save the file and share it securely with users.
 
 !!! outcome
 
@@ -26,4 +26,4 @@ Confirm the server shows **Online** in Server Admin and you have the current **a
 ## See also
 
 - Client setup: [Add a private server with a config file](/sample/how-to/client/add-with-config.md)
-- Server admin: [Make the server private](/sample/how-to/server/private-server.md)
+- Serveradministrator: [Make the server private](/sample/how-to/server/private-server.md)

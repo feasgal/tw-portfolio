@@ -6,7 +6,7 @@ Welcome to my technical writing portfolio. This portfolio has two independent pa
 
 -   **Case study**
     
-    A concise narrative of the starting problem, tooling decisions, architecture, and outcomes. It focuses on why each choice was made and what it enabled.
+    A concise narrative of the starting problem, tooling decisions, architecture, and outcomes. It focuses on why I made each choice and what it enabled.
 
 -   **Example docs set**
 
@@ -20,9 +20,9 @@ Welcome to my technical writing portfolio. This portfolio has two independent pa
 
 ## Notes
 
--   Proprietary names and details are replaced with neutral placeholders.
--   The example docs exist only to illustrate IA and voice; they are independent of the case study.
+-   Neutral placeholders have replaced proprietary names and details.
+-   The example docs exist only to illustrate IA and voice; they're independent of the case study.
 
 ## Confidentiality
 
-I have replaced any internal identifiers, proprietary assets, and confidential references with *[neutral placeholders]*. I intend this portfolio solely to demonstrate documentation strategy and systems, not internal technologies or business practices. Each document has undergone a thorough review and sanitizing process to ensure full compliance with all nondisclosure agreements and confidentiality obligations.
+I have replaced any internal identifiers, proprietary assets, and confidential references with *[neutral placeholders]*. I intend this portfolio solely to show documentation strategy and systems, not internal technologies or business practices. Each document has undergone a thorough review and sanitizing process to ensure full compliance with all nondisclosure agreements and confidentiality obligations.

@@ -9,9 +9,9 @@ Resolve common errors in the Hub.
 
 ## Common errors and fixes
 
--   **Windows error 60000**—Uninstall and reinstall Acme License Engine. See [Install Acme License Engine and Hub](/sample/tutorials/install-hub.md).
--   **Sign-in failed**—check time, date, and DNS; retry after network is stable.
--   **Cloud session failed to open**—sign out, restart the Hub, and try again.
+-   **Windows error 60000**: Uninstall and reinstall Acme License Engine. See [Install Acme License Engine and Hub](/sample/tutorials/install-hub.md).
+-   **Sign-in failed**: check time, date, and DNS; retry after network is stable.
+-   **Cloud session failed to open**: sign out, restart the Hub, and try again.
 
 ## See also
 

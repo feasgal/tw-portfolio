@@ -15,9 +15,9 @@ Sign in to **Acme License Hub**. Decide where you want the license to live: an *
 ## Steps
 
 1. In **Acme License Hub**, find the license under **Available**.
-2. Click **Activate**.
-3. Choose a location: **Acme dongle** or **Acme Cloud** session (if supported).
-4. Confirm and wait for activation to complete.
+1. Click **Activate**.
+1. Choose a location: **Acme dongle** or **Acme Cloud** session (if supported).
+1. Confirm and wait for activation to complete.
 
 !!! outcome
 

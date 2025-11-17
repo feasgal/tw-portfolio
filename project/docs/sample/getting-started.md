@@ -2,10 +2,10 @@
 
 This page is a fast path for new users. It links to the right topics in the documentation to help you install **Acme License Engine** and **Acme License Hub**, sign in, and run licensed apps.
 
-Starting paths for are described below for two roles:
+Starting paths are below for two roles:
 
 -   **End users**: People who need to run licensed apps
--   **Admins**: IT professionals who will configure a local license server so that end users can run licensed apps using shared licenses
+-   **Admins**: IT professionals who need to configure a local license server so that end users can run licensed apps using shared licenses
 
 </div>
 
@@ -16,9 +16,9 @@ Starting paths for are described below for two roles:
     -   Administrator rights on the machine
     -   Internet access
     -   An Acme account
-    -   Optional for admins: one product with sharable seats
+    -   Optional for administrators: one product with sharable seats
 
-## Get Started
+## Get started
 
 1.   Check [system requirements](/sample/reference/system-requirements.md){ target="_blank" }
 

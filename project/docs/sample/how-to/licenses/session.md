@@ -13,9 +13,9 @@ Sign in to **Acme License Hub** and confirm your account includes Cloud-enabled 
 ## Steps
 
 1. To **start**: in the Hub menu, choose **Open Cloud Session** and wait for the status to show **Open**.
-1. If the license for your protected app does not automatically move to the cloud session, [activate it there](/sample/how-to/licenses/activate.md).
-2. Run your protected app while the session remains open.
-3. To **end**: return to the Hub and choose **Close Cloud Session**; confirm the status shows **Closed**.
+1. If the license for your protected app doesn't automatically move to the cloud session, [activate it there](/sample/how-to/licenses/activate.md).
+1. Run your protected app while the session remains open.
+1. To **end**: return to the Hub and choose **Close Cloud Session**; confirm the status shows **Closed**.
 
 !!! outcome
 

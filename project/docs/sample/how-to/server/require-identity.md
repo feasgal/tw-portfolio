@@ -8,15 +8,15 @@ Capture who is using seats by requiring each client to present an identity at co
 
 ## Before you start
 
-Sign in to **Server Admin** with admin rights. Decide which identity you’ll require—**username**, **machine name**, or **both**—and how you’ll communicate that requirement to users (for example, in onboarding notes or a config file).
+Sign in to **Server Admin** with administrator rights. Decide which identity you’ll require (**username**, **machine name**, or **both**) and how you’ll communicate that to users (for example, in onboarding notes or a config file).
 
 ## Steps
 
 1. Open **Server Admin**.
-2. Go to **Access control** or **Identity**.
-3. Enable **Require client identity**.
-4. Choose the identity source (**username**, **machine name**, or **both**).
-5. Apply changes.
+1. Go to **Access control** or **Identity**.
+1. Enable **Require client identity**.
+1. Choose the identity source (**username**, **machine name**, or **both**).
+1. Apply changes.
 
 !!! outcome
 

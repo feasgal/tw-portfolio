@@ -8,15 +8,15 @@ Hide your server from LAN discovery so only users with the details you provide c
 
 ## Before you start
 
-Sign in to **Server Admin** with admin rights. Decide whether you’ll distribute a **client configuration file** or the **server address and port**, and make sure you have the current access password ready to share securely.
+Sign in to **Server Admin** with administrator rights. Decide whether you’ll distribute a **client configuration file** or the **server address and port**, and make sure you have the current access password ready to share securely.
 
 ## Steps
 
 1. Open **Server Admin**.
-2. Go to **Discovery**.
-3. Turn off **Advertise on local network**.
-4. Apply changes.
-5. Share a client configuration file or the server address (and password) with users.
+1. Go to **Discovery**.
+1. Turn off **Advertise on local network**.
+1. Apply changes.
+1. Share a client configuration file or the server address (and password) with users.
 
 !!! outcome
 

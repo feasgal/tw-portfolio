@@ -8,16 +8,16 @@ When discovery is disabled or you’re connecting across VPNs/subnets, add the s
 
 ## Before you start
 
-Confirm you have the server’s IP or hostname, the TCP port if your admin specifies one, and the access password if required. Make sure the client can reach the server over the network (same LAN or a routed/VPN path).
+Confirm you have the server’s IP or hostname, the TCP port if your administrator specifies one, and the access password if required. Make sure the client can reach the server over the network (same LAN or a routed/VPN path).
 
 ## Steps
 
 1. Open **Acme License Hub** on the client.
-2. Go to **Servers** → **Add** → **By address**.
-3. Enter the **IP/hostname** and **port** (if provided).
-1. Save and and confirm the new entry under **Private**.
-4. Select the server and click **Connect**.
-5. Enter the access password if prompted.
+1. Go to **Servers** → **Add** → **By address**.
+1. Enter the **IP/hostname** and **port** (if provided).
+1. Save and confirm the new entry under **Private**.
+1. Select the server and click **Connect**.
+1. Enter the access password if prompted.
 
 !!! outcome
 

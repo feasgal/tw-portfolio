@@ -16,13 +16,13 @@ I needed to bring existing documentation from several teams and formats into one
 I needed tooling that would catch broken links and style drift early, without adding friction for authors.
 The system and workflows also had to support multi‑project repositories and a growing contributor base of both technical and non-technical authors.
 
-## Design Decisions
+## Design decisions
 
 
 I knew I wanted a docs-as-code system and workflows.
 I chose an MkDocs + Material stack, with Python dependencies pinned in `requirements.txt`.
 
-For technical accuracy and consistency of voice, pull requests were required for every merge from a working `feature/*` branch to a `dev/*` branch.
+For technical accuracy and consistency of voice, I required pull requests for every merge from a working `feature/*` branch to a `dev/*` branch.
 This also mirrored company policy for similar merges in other repositories.
 
 !!! tip inline end ""
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
     1.   Active branches for ongoing updates. CI builds generate internal previews.
 
 1.   PR approval creates merge commit in `dev/*`.
-1.   Jenkins pipeline runs on `dev/*`: install deps → `mkdocs build --strict` → external link check → Vale → artifacts and notifications.
+1.   Jenkins pipeline runs on `dev/*`: install dependencies → `mkdocs build --strict` → external link check → Vale → artifacts and notifications.
 1.   During release prep, assuming the latest CI build in the `dev/*` branch succeeded, merge the `dev/*` branch into `main` (1) and deploy.
     { .annotate }
 
@@ -181,11 +181,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Risks and trade‑offs
 
-MkDocs' Lunr-based client-side search sacrifices advanced features like exact phrase matching in exchange for a zero-infrastructure solution that is fast, works entirely in the browser, and can be deployed anywhere static files can be hosted. That 'anywhere' includes downloaded or in-app documentation, which modern browsers prevent due to cross-file access restrictions. With input from stakeholders, I chose this trade-off because a significant subset of customers were constrained to airgapped environments, where most client-side search would not have functioned at all.
+MkDocs' Lunr-based client-side search sacrifices advanced features like exact phrase matching in exchange for a zero-infrastructure solution that's fast, works entirely in the browser, and can be deployed anywhere static files can be hosted.
+That 'anywhere' includes downloaded or in-app documentation, which modern browsers prevent due to cross-file access restrictions.
+With input from stakeholders, I chose this trade-off because a significant subset of customers were constrained to airgapped environments, where most client-side search would not have functioned at all.
 
-I kept pre-commit hooks out of scope to keep tooling simpler for reluctant contributors. That shifted enforcement to CI, so errors surface after a push instead of before a commit. To mitigate this, we required PR review for technical accuracy and voice, and ran the CI builds in `strict` mode with Vale and Linkchecker. This caught broken links, structure issues, and style drift before anything reached `main`.
+I kept pre-commit hooks out of scope to keep tooling simpler for reluctant contributors.
+That shifted enforcement to CI, so errors surface after a push instead of before a commit.
+To mitigate this, we required PR review for technical accuracy and voice, and ran the CI builds in `strict` mode with Vale and Linkchecker.
+This caught broken links, structure issues, and style drift before anything reached `main`.
 
-Merges to `main` were not restricted, so that anyone on the team could publish if needed. This of course carries its own risks: if anyone can publish, then anyone might publish! We mitigated this by making the deployment itself a manual step, and with policy:
+Merges to `main` weren't restricted, so that anyone on the team could publish if needed.
+This of course carries its own risks: if anyone can publish, then anyone might publish!
+We mitigated this by making the deployment itself a manual step, and with policy:
 
 -   Merge to `main` only as part of release prep, and only after a successful `dev/*` build.
 -   Deploy only from `main`, using a manual deploy job.
@@ -195,7 +202,7 @@ I kept theme overrides minimal. That traded fine-grained brand control for easy 
 ## Outcomes
 
 The program now runs on a predictable publishing cadence aligned with product releases.
-Technical and non-technical authors are willing and able to contribute to the documentation and see in real time what they are creating.
+Technical and non-technical authors are willing and able to contribute to the documentation and can see in real time what they are creating.
 Strict-mode builds and external link checks surface errors early in the cycle.
 Vale keeps terminology and tone consistent across teams.
 The UI remains uniform and accessible through tooling updates, with small, maintainable refinements where needed.

@@ -6,7 +6,7 @@ This page explains how Acme’s server feature enables a shared pool of seats fo
 
 Shared licensing layers a **server** on top of individual components. Seats live on an Acme dongle you control, but clients obtain **leases** over the network.
 
-Key constraint: for shared use, seats must reside on an **Acme dongle attached to the server host**. Clients lease from that server across the LAN/VPN.
+Key constraint: for shared use, seats must be on an **Acme dongle attached to the server host**. Clients lease from that server across the LAN/VPN.
 
 ## Components
 
@@ -28,7 +28,7 @@ Key constraint: for shared use, seats must reside on an **Acme dongle attached t
 
 **Acme License Hub**  
 
-:    Used by admins and users to view state and connect clients to servers.
+:    Used by administrators and users to view state and connect clients to servers.
 
 ## Connection models
 
@@ -59,8 +59,8 @@ Denials map to clear categories:
 - **Inventory**: all seats are in use.  
 - **Policy**: per-client limits or schedules block the request.  
 - **Authentication/identity**: password missing/invalid or required identity not provided.  
-- **Eligibility**: the product/version is not permitted for server leasing.  
-- **Topology**: the initial request succeeds but renewals cannot round-trip due to routing, VPN, or firewall rules.
+- **Eligibility**: the product/version isn't permitted for server leasing.  
+- **Topology**: the initial request succeeds but renewals can't round-trip due to routing, VPN, or firewall rules.
 
 This lifecycle keeps license secrets in the server’s location (the attached dongle) and exposes only short-lived authorization to clients, enabling central control and audit without distributing licenses to endpoints.
 
@@ -72,13 +72,11 @@ An access password is the first gate: clients that know it can present themselve
 
 Discovery (public or private) only affects how clients find the server; admission and attribution are controlled here.
 
-Agreed. Here’s a cleaner, narrative version.
-
 ## Network boundaries
 
-Licensing relies on three layers: basic IP reachability to the server, the application TCP port used for authorization, and optional multicast DNS for public discovery. Public discovery is limited to a single subnet or VLAN. Private connections do not use broadcast and work across routed networks and VPNs.
+Licensing relies on three layers: basic IP reachability to the server, the application TCP port used for authorization, and optional multicast DNS for public discovery. Public discovery is limited to a single subnet or VLAN. Private connections don't use broadcast and work across routed networks and VPNs.
 
-If the server’s TCP port is blocked by firewall settings, clients may see the server but cannot obtain leases. If multicast DNS is blocked, the **Discovered** list stays empty even though direct connections can succeed.
+If the server’s TCP port is blocked by firewall settings, clients may see the server but can't obtain leases. If multicast DNS is blocked, the **Discovered** list stays empty even though direct connections can succeed.
 
 On VPNs, split tunneling, policy-based routing, or overlapping address space can interrupt lease renewals. Renewals are small and periodic, but persistent loss or jitter causes clients to drop and reconnect.
 

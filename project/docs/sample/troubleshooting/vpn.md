@@ -1,6 +1,6 @@
 # VPN and subnets
 
-Clients on VPN or different subnets cannot see or reach the server.
+Clients on VPN or different subnets can't see or reach the server.
 
 ## Confirm
 
@@ -9,7 +9,7 @@ Clients on VPN or different subnets cannot see or reach the server.
 
 ## Likely causes and fixes
 
-1.   **mDNS does not cross subnets**  
+1.   **mDNS doesn't cross subnets**  
    Use a [private server connection](/sample/tutorials/connect-private-client.md) or configure a discovery proxy.
 1.   **VPN split tunneling**  
    Disable split tunneling or add routes to the server LAN.

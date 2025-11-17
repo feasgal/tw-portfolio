@@ -1,6 +1,6 @@
 # Server not discovered
 
-The server does not appear under **Discovered** in the Hub.
+The server doesn't appear under **Discovered** in the Hub.
 
 ## Confirm
 
@@ -11,10 +11,10 @@ The server does not appear under **Discovered** in the Hub.
 ## Likely causes and fixes
 
 1.   **Bonjour/mDNS blocked or absent**  
-   Install or enable mDNS on the client OS. Allow mDNS through host firewalls.
+   Install or enable mDNS on the client OS. Allow mDNS through host firewall rules.
 1.   **Different subnets or VLANs**  
    Discovery is broadcast-limited. Use a [private server connection](/sample/tutorials/connect-private-client.md) across subnets.
-1.   **Host firewalls**  
+1.   **Host firewall rules**  
    Allow the server's TCP port and mDNS on both ends. See [Firewalls](/sample/troubleshooting/firewalls.md).
 1.   **Server offline**  
    Restart the service on the host.

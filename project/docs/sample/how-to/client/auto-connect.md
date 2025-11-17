@@ -8,13 +8,13 @@ If your server advertises on the LAN, you can connect with a couple of clicks. T
 
 ## Before you start
 
-Join the same subnet/VLAN as the server and get the access password from your admin if one is required. If you’re remote or on a different subnet, use a private connection method instead.
+Join the same subnet/VLAN as the server and get the access password from your administrator if required. If you’re remote or on a different subnet, use a private connection method instead.
 
 ## Steps
 
 1. Open **Acme License Hub** and go to **Servers**.
-2. Under **Discovered**, select your server.
-3. Click **Connect** and provide the access password if prompted.
+1. Under **Discovered**, select your server.
+1. Click **Connect** and provide the access password if prompted.
 
 !!! outcome
 

@@ -20,11 +20,11 @@ This page explains how Acme licensing works for a single user.
 
 :    Where an active seat lives:
 
-     - **Acme dongle** — hardware you control, attached by USB.
-     - **Acme Cloud** — a session you open in Hub; available while signed in.
+     - **Acme dongle**: hardware you control, attached by USB.
+     - **Acme Cloud**: a session you open in Hub; available while signed in.
 
 **License → activations**  
-:    A license may allow multiple activations. This allows the software to be used on more than one machine at a time.
+:    A license may allow more than one activation. This allows more than one machine at a time to launch the software.
 
 
 ## Choosing a location
@@ -40,9 +40,9 @@ There is no single “best” option; pick based on where you spend most of your
 
 Think in layers when something fails:
 
-1. **Location presence** — Is the dongle connected, or is the Cloud session open?
-2. **Reachability** — Does the Engine see that location (USB recognized, internet up)?
-3. **Eligibility** — Is the license Cloud-enabled or intended for dongle use?
+1. **Location presence**: Is the dongle connected, or is the Cloud session open?
+1. **Reachability**: Does the Engine see that location (USB recognized, internet up)?
+1. **Eligibility**: Is the license Cloud-enabled or intended for dongle use?
 
 ## Security and privacy
 

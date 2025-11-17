@@ -1,4 +1,4 @@
-# File a Return Authorization
+# File a return authorization
 
 Replace a broken, lost, or stolen Acme dongle through Acme’s service process.
 
@@ -13,10 +13,10 @@ Gather the dongle’s serial number and any proof-of-purchase your support team 
 ## Steps
 
 1. Sign in to your account on the Acme website.
-2. Open **Support** → **Returns/RA**.
-3. Choose **Broken**, **Lost**, or **Stolen**.
-4. Fill in the requested details and submit the request.
-5. If instructed, package and ship the device to the provided address.
+1. Open **Support** → **Returns/RA**.
+1. Choose **Broken**, **Lost**, or **Stolen**.
+1. Fill in the requested details and submit the request.
+1. If instructed, package and ship the device to the provided address.
 
 !!! outcome
 

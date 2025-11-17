@@ -8,13 +8,13 @@ Use Server Admin to see who is connected, which products are in use, and where c
 
 ## Before you start
 
-Sign in to **Server Admin** with admin rights. If you’re investigating a complaint, note the approximate time and product involved so you can focus your review.
+Sign in to **Server Admin** with administrator rights. If you’re investigating a complaint, note the approximate time and product involved so you can focus your review.
 
 ## Steps
 
 1.   Open **Server Admin**.
-2.   Go to **Statistics** or **Status**.
-3.   Review the key indicators:
+1.   Go to **Statistics** or **Status**.
+1.   Review the key indicators:
 
      - **Online/Offline** state of the server
      - **Active clients** currently connected

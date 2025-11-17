@@ -1,6 +1,6 @@
 # Add a private server with a config file
 
-For private servers, the simplest and most reliable onboarding is importing a configuration file from your admin. It avoids typos and locks in the correct settings.
+For private servers, the simplest and most reliable onboarding is importing a configuration file from your administrator. It avoids typos and locks in the correct settings.
 
 !!! goal
 
@@ -8,15 +8,15 @@ For private servers, the simplest and most reliable onboarding is importing a co
 
 ## Before you start
 
-Get the configuration file from your admin and, if required, the access password. Ensure the client machine can reach the server over the network (LAN or routed/VPN path).
+Get the configuration file from your administrator and, if required, the access password. Ensure the client machine can reach the server over the network (LAN or routed/VPN path).
 
 ## Steps
 
 1. Open **Acme License Hub** on the client.
-2. Go to **Servers** → **Add** → **Import configuration**.
-3. Select the file from your admin and confirm the new entry under **Private**.
-4. Select the server and click **Connect**.
-5. Enter the access password if prompted.
+1. Go to **Servers** → **Add** → **Import configuration**.
+1. Select the file from your administrator and confirm the new entry under **Private**.
+1. Select the server and click **Connect**.
+1. Enter the access password if prompted.
 
 !!! outcome
 

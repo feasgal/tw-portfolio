@@ -50,7 +50,7 @@
 
 **Private server**
 
-:    A server that does not advertise on the LAN.
+:    A server that doesn't advertise on the LAN.
 
 **Public server**
 
@@ -66,7 +66,7 @@
 
 **Server Admin**
 
-:    The admin UI for the server.
+:    The administrator UI for the server.
 
 **Synchronization**
 

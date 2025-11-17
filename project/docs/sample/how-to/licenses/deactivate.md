@@ -16,8 +16,8 @@ Close any protected apps that might be using the license, then sign in to **Acme
 ## Steps
 
 1. Find the license in its current location (Acme dongle or cloud session).
-2. Choose **Deactivate**.
-3. Confirm and wait for completion.
+1. Choose **Deactivate**.
+1. Confirm and wait for completion.
 
 !!! outcome
 

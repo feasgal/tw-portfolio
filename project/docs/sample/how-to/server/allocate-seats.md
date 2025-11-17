@@ -1,6 +1,6 @@
 # Allocate seats to a USB on the server
 
-To share licenses across a network, seats must be activated to the **Acme dongle** attached to the server host. This places the entitlements where the server can grant leases to clients.
+To share licenses across a network, seats must be on the **Acme dongle** attached to the server host. This places the entitlements where the server can grant leases to clients.
 
 !!! goal
 
@@ -13,7 +13,7 @@ On the server host, connect an Acme dongle directly to a USB port (avoid multipo
 ## Steps
 
 1. In **Acme License Hub**, find the license under **Available**.
-2. Choose **Activate** and select the **Acme dongle** as the target.
+1. Choose **Activate** and select the **Acme dongle** as the target.
 
 !!! outcome
 

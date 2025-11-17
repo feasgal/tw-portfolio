@@ -15,12 +15,12 @@
 ## Step 1: Sign in
 
 1. Open **Acme License Hub**.
-2. Sign in with your Acme account.
+1. Sign in with your Acme account.
 
 ## Step 2: Open a Cloud session
 
 1. In the Hub menu, choose **Open Cloud Session**.
-2. Wait for the status to update.
+1. Wait for the status to update.
 
 **The session status now shows Open and Cloud-enabled licenses are in it.**
 
@@ -31,7 +31,7 @@
 ## Step 4: Close the Cloud session
 
 1. Return to the Hub.
-2. Choose **Close Cloud Session**.
+1. Choose **Close Cloud Session**.
 
 **The session status now shows Closed.**
 

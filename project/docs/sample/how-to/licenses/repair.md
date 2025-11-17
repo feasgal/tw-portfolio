@@ -13,9 +13,9 @@ Connect the **Acme dongle** directly to the computer (avoid multiport USB adapte
 ## Steps
 
 1. In the Hub, right-click the dongle and choose **Synchronize**.
-2. If the issue persists, move the dongle to a different USB port and repeat **Synchronize**.
-3. If still failing, try another machine to rule out local USB issues.
-4. If the dongle is not detected at all, reseat it and check OS-level USB/device settings.
+1. If the issue persists, move the dongle to a different USB port and repeat **Synchronize**.
+1. If still failing, try another machine to rule out local USB issues.
+1. If the dongle isn't detected at all, reseat it and check OS-level USB/device settings.
 
 !!! outcome
 
