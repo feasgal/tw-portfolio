@@ -25,7 +25,7 @@ nav: # this section configures the nav sidebar
     
     - Docs-As-Code Implementation: case-study/study.md
 
-    - Acme Licensing:
+    - Acme Corp Sample:
         - Start here: sample/getting-started.md
         - Tutorials:
             - Install Acme License Engine and Hub: sample/tutorials/install-hub.md
@@ -33,6 +33,14 @@ nav: # this section configures the nav sidebar
             - Connect a client to a private server: sample/tutorials/connect-private-client.md
             - Start your first Acme Cloud session: sample/tutorials/first-cloud-session.md
         - How-to guides:
+            - Licenses and accounts:
+                - Activate a license: sample/how-to/licenses/activate.md
+                - Deactivate a license: sample/how-to/licenses/deactivate.md
+                - Transfer a license: sample/how-to/licenses/transfer.md
+                - Redeem an activation code: sample/how-to/licenses/redeem.md
+                - Repair an Acme dongle: sample/how-to/licenses/repair.md
+                - Start or end a Cloud session: sample/how-to/licenses/session.md
+                - File an RMA: sample/how-to/licenses/return.md
             - Server admin:
                 - Export a client config file: sample/how-to/server/export-config.md
                 - Require a server password: sample/how-to/server/require-password.md
@@ -44,29 +52,21 @@ nav: # this section configures the nav sidebar
                 - Auto-connect to public server: sample/how-to/client/auto-connect.md
                 - Add server via config file: sample/how-to/client/add-with-config.md
                 - Add server by IP: sample/how-to/client/add-by-ip.md
-            - Licenses and accounts:
-                - Activate a license: sample/how-to/licenses/activate.md
-                - Deactivate a license: sample/how-to/licenses/deactivate.md
-                - Transfer a license: sample/how-to/licenses/transfer.md
-                - Redeem an activation code: sample/how-to/licenses/redeem.md
-                - Repair an Acme dongle: sample/how-to/licenses/repair.md
-                - Start or end a Cloud session: sample/how-to/licenses/session.md
-                - File an RMA: sample/how-to/licenses/return.md
-        - Reference:
-            - Hub UI and icon legend: sample/reference/hub-ui.md
-            - Server Admin settings: sample/reference/server-admin.md
-            - System requirements: sample/reference/system-requirements.md
-            - Glossary: sample/reference/glossary.md
         - Explanation:
             - Individual use: sample/explanation/architecture.md
             - License server: sample/explanation/sharable-licenses.md
+        - Reference:
+            - System requirements: sample/reference/system-requirements.md
+            - Hub UI and icon legend: sample/reference/hub-ui.md
+            - Server Admin settings: sample/reference/server-admin.md
+            - Glossary: sample/reference/glossary.md
         - Troubleshooting:
+            - Hub errors: sample/troubleshooting/hub-errors.md
+            - App version unsupported: sample/troubleshooting/version.md
+            - Firewalls: sample/troubleshooting/firewalls.md
             - Server not discovered: sample/troubleshooting/discovery.md
             - No seats available: sample/troubleshooting/no-seats.md
-            - Firewalls: sample/troubleshooting/firewalls.md
             - VPN and subnets: sample/troubleshooting/vpn.md
-            - App version unsupported: sample/troubleshooting/version.md
-            - Hub errors: sample/troubleshooting/hub-errors.md
 
 
 
