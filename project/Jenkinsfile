@@ -1,0 +1,72 @@
+/* Docs pipeline script */
+
+// Get a bunch of utility code.
+// Use a version number so we don't get burned by other people making changes.
+@Library('jenkins-pipeline-library@v2.0.1')
+
+import com.ACME-corp.SlackManager
+def slack = new SlackManager(this, 'build_docs')
+
+pipeline {
+	agent {
+		label 'mkdocs'
+	}
+
+	options {
+		timestamps()
+		ansiColor("xterm")
+	}
+
+	stages {
+		stage("Checkout") {
+			steps {
+				checkout scm
+				dumpEnvironment()
+			}
+		}
+
+		stage("MkDocs Build") {
+			steps {
+				dir ('project'){
+					script {
+						// Determine the operating system
+						if (isLinux()) {
+							sh '$HOME/.local/bin/mkdocs build --strict'
+						} else if (isMac()) {
+							sh 'mkdocs build --strict'
+						} else {
+							echo 'This build is meant for Linux or macOS build agents, but your OS is: ${os}'
+						}
+					}
+				}
+			}
+		}
+
+		/* Publish the docs on the jenkins job page */
+		// publish html snippet generator doesn't include "target:"
+		// https://issues.jenkins.io/browse/JENKINS-29711.
+		stage("Publish HTML") {
+			steps {
+				publishHTML(target: [
+					allowMissing: false,
+					alwaysLinkToLastBuild: true,
+					escapeUnderscores: false,
+					keepAll: true,
+					reportDir: 'project/site',
+					reportFiles: 'index.html',
+					reportName: 'Docs-Site',
+					reportTitles: ''
+				])
+			}
+		}
+	}
+
+	post {
+		cleanup {
+			script {
+				slack.notifyFailureOrFixed(true)
+			}
+		}
+	}
+}
+
