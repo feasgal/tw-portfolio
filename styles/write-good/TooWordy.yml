@@ -64,6 +64,7 @@ tokens:
   - consequently
   - consolidate
   - constitutes
+  - demonstrate
   - depart
   - designate
   - discontinue
@@ -142,6 +143,7 @@ tokens:
   - minimum
   - modify
   - monitor
+  - multiple
   - necessitate
   - nevertheless
   - not certain
@@ -210,6 +212,7 @@ tokens:
   - until such time as
   - utilization
   - utilize
+  - validate
   - various different
   - what I mean to say is
   - whether or not
