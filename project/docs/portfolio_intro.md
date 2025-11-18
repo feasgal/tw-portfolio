@@ -4,11 +4,15 @@ Welcome to my technical writing portfolio. This portfolio has two independent pa
 
 ## What’s inside
 
--   **Case study**
+-   [Case study](/case-study/study.md)
     
     A concise narrative of the starting problem, tooling decisions, architecture, and outcomes. It focuses on why I made each choice and what it enabled.
 
--   **Example docs set**
+-   [Example docs set](/sample/getting-started.md)
+
+    !!! note inline end
+
+        The example docs exist only to illustrate IA and voice; they're independent of the case study.
 
     Diátaxis-based docs for a fictional licensing platform. I produced a complete Markdown set organized into Tutorials, How-to, Reference, Explanation, and Troubleshooting, with a Getting started portal to help a new user find their way to the information they need for a quick first success. Built with MkDocs Material, with reusable templates and style rules. Result: fast findability, clean navigation, and a structure that would scale.
 
@@ -18,10 +22,6 @@ Welcome to my technical writing portfolio. This portfolio has two independent pa
 1.   Start with the case study to understand my approach to diagnosing problems and shipping a docs program.
 1.   Browse the example docs to see structure, page types, and copy you could drop into a real product.
 
-## Notes
-
--   Neutral placeholders have replaced proprietary names and details.
--   The example docs exist only to illustrate IA and voice; they're independent of the case study.
 
 ## Confidentiality
 
