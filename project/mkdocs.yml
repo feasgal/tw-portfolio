@@ -25,7 +25,7 @@ nav: # this section configures the nav sidebar
     
     - Docs-As-Code Implementation: case-study/study.md
 
-    - Acme Corp Sample:
+    - Acme License Hub:
         - Start here: sample/getting-started.md
         - Tutorials:
             - Install Acme License Engine and Hub: sample/tutorials/install-hub.md
