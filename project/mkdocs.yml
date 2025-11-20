@@ -68,7 +68,22 @@ nav: # this section configures the nav sidebar
             - No seats available: sample/troubleshooting/no-seats.md
             - VPN and subnets: sample/troubleshooting/vpn.md
 
-
+    - Tech Doc Utility:
+        - Overview: tdutility/overview.md
+        - Getting started: tdutility/tutorial.md
+        - User guide:
+            - Project Setup:
+                - Create a TDU project: tdutility/create-project.md
+                - Configure project metadata: tdutility/configure-metadata.md
+                - Add authors to a project: tdutility/add-authors.md
+                - Build a source list: tdutility/build-list.md
+                - Create a document plan: tdutility/create-plan.md
+                - Verify inputs: tdutility/verify-inputs.md
+            - Writing and Annotation:
+                - Start a document: tdutility/start-document.md
+                - Change status and assign documents: tdutility/status-assign.md
+                - Correlate source data: tdutility/correlate-data.md
+                - Annotate source documents: tdutility/annotate-documents.md
 
 not_in_nav: |
     /index.md
