@@ -655,3 +655,11 @@ body { -webkit-font-smoothing: auto; }
 }
 .md-search-result mark,
 .md-header__topic { -webkit-font-smoothing: antialiased; }
+
+.md-typeset .grid.cards>ol>li,.md-typeset .grid.cards>ul>li,.md-typeset .grid>.card {
+    border-color: var(--md-default-fg-color--lighter);
+}
+
+.md-typeset .grid.cards>ol>li>hr, .md-typeset .grid.cards>ul>li>hr, .md-typeset .grid>.card>hr {
+    border-bottom-color: var(--md-default-fg-color--lighter);
+}
