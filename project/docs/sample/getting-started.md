@@ -7,7 +7,6 @@ Starting paths are below for two roles:
 -   **End users**: People who need to run licensed apps
 -   **Admins**: IT professionals who need to configure a local license server so that end users can run licensed apps using shared licenses
 
-</div>
 
 ## Before you begin
 
