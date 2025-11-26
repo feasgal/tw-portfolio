@@ -89,7 +89,6 @@ features = [
     "content.code.copy",
     "content.footnote.tooltips",
     "content.tabs.link",
-    "navigation.instant",
     "navigation.path",
     "navigation.sections",
     "navigation.tabs",
