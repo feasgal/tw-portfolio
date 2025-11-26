@@ -2,6 +2,9 @@ site_name: Portfolio (Copyright 2025 Seonaid Welch)
 
 site_url: https://feasgal.github.io/tw-portfolio/
 
+repo_url: https://github.com/feasgal/tw-portfolio/
+repo_name: feasgal/tw-portfolio
+
 docs_dir: docs
 site_dir: site
 watch:
@@ -18,7 +21,7 @@ plugins:
     - redirects:
         redirect_maps:
             index.md: portfolio_intro.md
-
+ 
 nav: # this section configures the nav sidebar
 
     - Introduction: portfolio_intro.md
