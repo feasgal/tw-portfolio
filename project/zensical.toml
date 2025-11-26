@@ -1,0 +1,171 @@
+[project]
+site_name = "Portfolio (Copyright 2025 Seonaid Welch)"
+site_url = "https://feasgal.github.io/tw-portfolio/"
+site_description = "Technical writing portfolio"
+site_author = "Seonaid Welch"
+
+repo_url = "https://github.com/feasgal/tw-portfolio/"
+repo_name = "feasgal/tw-portfolio"
+
+docs_dir = "docs"
+site_dir = "site"
+
+use_directory_urls = true
+
+extra_css = ["assets/stylesheets/extra.css"]
+extra_javascript = ["assets/javascripts/extra.js"]
+
+
+nav = [
+  {"Introduction" = "portfolio_intro.md"},
+  {"Docs-As-Code Implementation" = "case-study/study.md"},
+  {"Acme Corp Sample" = [
+     "sample/getting-started.md",
+     {"Tutorials" = [
+        "sample/tutorials/install-hub.md",
+        "sample/tutorials/setup-first-server.md",
+        "sample/tutorials/connect-private-client.md",
+        "sample/tutorials/first-cloud-session.md"
+     ]},
+     {"How-to guides" = [
+        {"Licenses and accounts" = [
+           "sample/how-to/licenses/activate.md",
+           "sample/how-to/licenses/deactivate.md",
+           "sample/how-to/licenses/transfer.md",
+           "sample/how-to/licenses/redeem.md",
+           "sample/how-to/licenses/repair.md",
+           "sample/how-to/licenses/session.md",
+           "sample/how-to/licenses/return.md"
+        ]},
+        {"Server admin" = [
+           "sample/how-to/server/export-config.md",
+           "sample/how-to/server/require-password.md",
+           "sample/how-to/server/require-identity.md",
+           "sample/how-to/server/private-server.md",
+           "sample/how-to/server/allocate-seats.md",
+           "sample/how-to/server/stats.md"
+        ]},
+        {"Client setup" = [
+           "sample/how-to/client/auto-connect.md",
+           "sample/how-to/client/add-with-config.md",
+           "sample/how-to/client/add-by-ip.md"
+        ]}
+     ]},
+     {"Explanation" = [
+        "sample/explanation/architecture.md",
+        "sample/explanation/sharable-licenses.md"
+     ]},
+     {"Reference" = [
+        "sample/reference/system-requirements.md",
+        "sample/reference/hub-ui.md",
+        "sample/reference/server-admin.md",
+        "sample/reference/glossary.md"
+     ]},
+     {"Troubleshooting" = [
+        "sample/troubleshooting/hub-errors.md",
+        "sample/troubleshooting/version.md",
+        "sample/troubleshooting/firewalls.md",
+        "sample/troubleshooting/discovery.md",
+        "sample/troubleshooting/no-seats.md",
+        "sample/troubleshooting/vpn.md"
+     ]}
+  ]}
+]
+
+
+
+
+[project.theme]
+variant = "classic"
+custom_dir = "overrides"
+favicon = "img/favicon.png"
+font.text = "Noto Sans"
+font.code = "Courier Prime"
+logo = "img/home_icon.png"
+language = "en"
+
+features = [
+    "content.code.annotate",
+    "content.code.copy",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "navigation.instant",
+    "navigation.path",
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "navigation.top",
+    "announce.dismiss",
+    "search.highlight"
+]
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+primary = "095BAF"
+accent = "095BAF"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "095BAF"
+accent = "095BAF"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "095BAF"
+accent = "095BAF"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+
+
+[project.extra]
+homepage = "./portfolio_intro"
+generator = false
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.blocks.caption]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.toc]
+title = "On this page"
+permalink = "🔗"
+permalink_title = "Link to this heading"
+
+

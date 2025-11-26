@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block scripts %}
-{{ super() }}
 <script type="text/javascript">
 	(function () {
 		d = document;
@@ -11,6 +10,7 @@
 		d.getElementsByTagName("head")[0].appendChild(s);
 	})();
 </script>
+{{ super() }}
 {% endblock %}
 
 
