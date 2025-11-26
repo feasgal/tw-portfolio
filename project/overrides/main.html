@@ -1,18 +1,16 @@
 {% extends "base.html" %}
 
-{% block announce %}
-	<!-- This block is blank by default. Whatever content is added here gets displayed as an announcement at the top of each page in the site. -->
-	You're looking at a public case study of a documentation system I built from scratch — no NDAs were harmed in the making of this site.<br>
+{% block scripts %}
+{{ super() }}
+<script type="text/javascript">
+	(function () {
+		d = document;
+		s = d.createElement("script");
+		s.src = "https://webagent.ai/api/chatbot/fb66e0a2-e888-4e44-b42b-d700df8310bb";
+		s.async = 1;
+		d.getElementsByTagName("head")[0].appendChild(s);
+	})();
+</script>
 {% endblock %}
 
-
-{% block header %}
-<!-- Custom Banner -->
-<div class="banner" id="banner">
-    <p style="color:var(--md-primary-bg-color); font-size:small; display:inline;">{{ config.copyright }}</p>
-</div>
-
-<!-- Original Header -->
-{% include "partials/header.html" %}
-{% endblock %}
 

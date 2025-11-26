@@ -75,7 +75,7 @@ not_in_nav: |
 
 theme:
   name: material
-#  custom_dir: overrides
+  custom_dir: overrides
   favicon: img/favicon.png
   logo: img/home_icon.png
   palette:
